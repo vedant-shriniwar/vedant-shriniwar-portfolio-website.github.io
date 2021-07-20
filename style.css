@@ -1,0 +1,198 @@
+body {
+	background-color: #e7e7e7;
+	margin: 0px;
+	padding: 0px;
+}
+ul {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+section {
+	width: 100%;
+	height: 95vh;
+	background-image: url("../background Images/bg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+nav {
+	display: flex;
+	align-items: center;
+	height: 70px;
+	background-color: white;
+	box-shadow: black 2px 2px 12px;
+	padding-left: 20px;
+	padding-right: 20px;
+	justify-content: space-between;
+}
+nav ul {
+	display: flex;
+}
+.my_logo {
+	font-family: "Monoton", cursive;
+	color: #48494b;
+	/* text-shadow: black 1px 1px; */
+	font-size: 25px;
+	font-weight: 600;
+}
+nav ul li {
+	font-family: cursive;
+	padding: 0px 20px;
+	text-shadow: black 1px 1px 2px;
+}
+.initial_intro_container p:nth-child(1) {
+	font-family: Calibri;
+	font-size: 22px;
+	font-weight: bold;
+}
+.initial_intro_container p:nth-child(2) {
+	font-family: Calibri;
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-size: 40px;
+}
+.initial_intro_container p:nth-child(3) {
+	font-family: monospace;
+	font-size: 20px;
+}
+.initial_intro_container p:nth-child(4) {
+	font-family: monospace;
+	font-size: 20px;
+}
+.initial_intro_container p {
+	line-height: 0px;
+}
+.initial_intro_container {
+	margin-top: 10%;
+	margin-left: 5%;
+}
+.initial_intro_container button {
+	width: 130px;
+	height: 42px;
+	border-radius: 10px;
+	font-family: Calibri;
+	font-weight: bold;
+	font-size: 15px;
+}
+.my_cv {
+	background-color: rgb(82, 79, 79);
+	color: white;
+}
+.my_pic {
+	height: 350px;
+	margin-left: 500px;
+	margin-top: -230px;
+	box-shadow: rgb(114, 113, 113) 3px 3px 2px;
+	border-radius: 4px;
+}
+.about_me_container {
+	width: 80%;
+	height: 280px;
+	background-color: white;
+	border-radius: 20px;
+	box-shadow: black 2px 2px 12px;
+	display: flex;
+	margin-top: 5%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+}
+.about_me_text {
+	margin-left: 3%;
+	margin-right: 3%;
+	font-family: cursive;
+}
+.box_1,
+.box_2 {
+	width: 300px;
+	height: 220px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-shadow: black 2px 2px 12px;
+	margin-left: 150px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: rgb(22, 22, 22);
+}
+.skill_box {
+	display: flex;
+}
+.box_1 span,
+.box_2 span {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: calibri;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-left: 130px;
+}
+.box_1 p,
+.box_2 p {
+	color: white;
+	font-family: sans-serif;
+	margin-left: 35%;
+}
+.box_1 ul,
+.box_2 ul {
+	color: white;
+	font-family: calibri;
+	font-size: 0.9rem;
+	margin-left: 5%;
+}
+.my_skills_title {
+	width: 100px;
+	height: 45px;
+	border: black 2px solid;
+	border-radius: 10px;
+	display: flex;
+	margin-left: 475px;
+	margin-top: 40px;
+	background-color: white;
+}
+.my_skills_title p {
+	padding-left: 10px;
+	padding-bottom: 2px;
+}
+.contact_me {
+	width: 100%;
+	height: 100px;
+	background-color: black;
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+}
+.contact_me p {
+	color: white;
+	font-family: calibri;
+	font-weight: bold;
+	border-bottom: white 2px solid;
+	margin-left: 200px;
+}
+.contact_me button {
+	width: 200px;
+	height: 40px;
+	background-color: white;
+	font-weight: bold;
+	padding-left: 10px;
+	margin-left: 50px;
+}
+.social_media a {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	display: flex;
+	background-color: rgb(255, 255, 255);
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.social_media {
+	display: flex;
+	margin-left: 400px;
+	margin-bottom: 30px;
+}
